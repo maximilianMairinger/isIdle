@@ -9,6 +9,8 @@ export function isIdle(timeout: number = 70) {
     clearTimeout(timoutID)
     timoutID = setTimeout(timoutFunc, timeout)
   }
+
+  return isIdle
 }
 
 export default isIdle
