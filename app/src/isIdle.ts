@@ -1,6 +1,6 @@
 import { Data } from 'josm';
 
-export function isIdle(timeout: number) {
+export function isIdle(timeout: number = 70) {
   const isIdle = new Data(true) as any as Omit<Data<boolean>, "set"> & { stillActive: () => void }
   let timoutID: NodeJS.Timeout
   const timoutFunc = () => {(isIdle as any as Data<boolean>).set(true)}
