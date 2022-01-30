@@ -2,8 +2,6 @@
 
 General purpose idle detection. Timeout based.
 
-> Please note that Is idle is currently under development and not yet suited for production
-
 ## Installation
 
 ```shell
