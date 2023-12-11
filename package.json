@@ -1,6 +1,6 @@
 {
   "name": "is-idle",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "General purpose idle detection. Timeout based.",
   "main": "./app/dist/esm/isIdle.js",
   "types": "./app/dist/esm/isIdle.d.ts",
